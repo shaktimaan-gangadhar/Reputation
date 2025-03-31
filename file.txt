@@ -10,16 +10,4 @@ pipeline {
             steps {
                sh ' /opt/maven/bin/mvn clean package '
             }
-        }
-        stage('Test') { 
-            steps {
-                // 
-            }
-        }
-        stage('Deploy') { 
-            steps {
-                // 
-            }
-        }
-    }
 }
